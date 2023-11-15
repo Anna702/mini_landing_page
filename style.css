@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  background: url(/assets/background.png);
+  background-attachment: fixed;
+}
+
+header {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  color: #f1a626;
+  font-size: 58px;
+  font-family: serif;
+}
+
+figcaption {
+  color: aliceblue;
+  padding: 10px;
+  font-size: 15px;
+}
+
+nav {
+  color: #f1a626;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.button {
+  text-align: center;
+  background: #f1a626;
+  display: block;
+  box-sizing: border-box;
+  padding: 20 40px;
+  margin: 15px;
+  border: 1px solid #f1a626;
+  border-radius: 40px;
+  width: 160px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: serif;
+  color: #444;
+}
+
+#profile_pic,
+figcaption {
+  width: 300px;
+  margin-left: 30px;
+}
+
+#about_me {
+  color: white;
+  display: flex;
+  width: 70%;
+  font-family: serif;
+  text-align: justify;
+}
